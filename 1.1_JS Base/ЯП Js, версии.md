@@ -14,8 +14,8 @@
 - **ECMAScript 4 (не вышла )**
 - **ECMAScript 5
 -** геттеры и сеттеры для объектов;
-- полезные методы для мета программирования    типа `[Object.defineProperty()](https://doka.guide/js/descriptors/)`, `Object.keys()` и других;
-- методы для работы с массивами типа `[filter()](https://doka.guide/js/array-filter/)`, `[map()](https://doka.guide/js/array-map/)`, `[reduce()](https://doka.guide/js/array-reduce/)` и других;
+- полезные методы для мета программирования    типа `[Object.defineProperty()]`, `Object.keys()` и других;
+- методы для работы с массивами типа `[filter()]`, `[map()]`, `[reduce()]` и других;
 - поддержку JSON;
 
 **После 2015 обновление каждый год и названия соответствуют году:**
@@ -24,36 +24,36 @@
 
 - **Стрелочные функции**
 - **Классы**
-- `**const` и `let`**
-- **Аргументы функций по умолчанию;**
-- **Деструктурирование объектов;**
-- **Импорты и экспорты;**
-- **Промисы;**
+- **const и let**
+- **Аргументы функций по умолчанию**
+- **Деструктуризация объектов**
+- **Импорты и экспорты**
+- **Промисы**
 
 **ES2016**
 
 - Деструктурирование массивов;
 - возведение в степень через оператор `*`;
-- `[includes()](https://doka.guide/js/includes/)` для массивов.
+- `[includes()]` для массивов.
 
 **ES2017** 
 
 - `Object.values()`, `Object.entries()`;
-- `[async/await](https://doka.guide/js/async-await/)`.
+- `[async/await]`.
 
 **ES2018**
 
-- `[finally()](https://doka.guide/js/promise-finally/)` для промисов;
+- `[finally()]` для промисов;
 - обновления в регулярных выражениях;
 - спред оператор для объектов.
 
 **ES2019**
 
-- `[flat()](https://doka.guide/js/array-flat/)`, `[flatMap()](https://doka.guide/js/array-flatmap/)` для массивов;
+- `[flat()]`, `[flatMap()]` для массивов;
 - `fromEntries()` для объектов.
 
 **ES2020**
 
-- `[BigInt` тип](https://doka.guide/js/bigint/);
+- `[BigInt]`;
 - `globalThis` для удобного доступа к глобальному объекту;
 - `??` оператор для nullish coalescing.
