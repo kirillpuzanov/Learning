@@ -13,6 +13,8 @@
 [Async](https://www.notion.so/Async-35bf9f682ecf4a2397bd69b78c9d5137?pvs=21)
 
 
+#
+### Полезное
 [Learn JavaScript](https://learn.javascript.ru/)
 
 [Вы не знаете JS](https://github.com/azat-io/you-dont-know-js-ru?tab=readme-ov-file)
