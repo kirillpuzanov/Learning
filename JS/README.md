@@ -2,9 +2,9 @@
 
 [JS base](./JS_1_base/README.md)
 
-[JS типы данных](./JS_2_типы_данных/README.md)
+[Типы данных](./JS_2_типы_данных/README.md)
 
-[JS Функции](https://www.notion.so/JS-777bd7ffda18407b8a87b1ba62c5084e?pvs=21)
+[Функции](./JS_3_функции/README.md)
 
 [JS Объекты, Прототипы,  Конфигурация](https://www.notion.so/JS-d54048a0f7c343a3840f10e1133f5aa2?pvs=21)
 
