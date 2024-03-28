@@ -6,7 +6,7 @@
 
 [Функции](./JS_3_функции/README.md)
 
-[JS Объекты, Прототипы,  Конфигурация](https://www.notion.so/JS-d54048a0f7c343a3840f10e1133f5aa2?pvs=21)
+[JS Объекты, Прототипы,  Конфигурация](./JS_4_Object/README.md)
 
 [JS Class](https://www.notion.so/JS-Class-062fe2cae4e4452fb1ac383fdc9c81f1?pvs=21)
 
