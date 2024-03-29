@@ -121,6 +121,8 @@
 
 [Learn JavaScript](https://learn.javascript.ru/)
 
+[Понимание Event Loop / практика ](https://habr.com/ru/companies/otus/articles/686670/)
+
 [Вы не знаете JS](https://github.com/azat-io/you-dont-know-js-ru?tab=readme-ov-file)
 
 [70 вопросов по JS](https://habr.com/ru/articles/486820/#38)
