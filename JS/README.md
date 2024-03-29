@@ -1,5 +1,6 @@
 <details>
 <summary><b>JS base</b></summary>
+<br>
 
 [ЯП Js, версии ](./JS_1_base/ЯП_Js_версии.md)
 
@@ -31,6 +32,7 @@
 
 <details>
 <summary><b>Типы данных</b></summary>
+<br>
 
 [Числа (number)](./JS_2_типы_данных/number.md)
 
@@ -59,6 +61,7 @@
 
 <details>
 <summary><b>JS Функции</b></summary>
+<br>
 
 [Рекурсия и стек](./JS_3_функции/Рекурсия_стек.md)
 
@@ -87,6 +90,7 @@
 
 <details>
 <summary><b>JS Объекты, Прототипы,  Конфигурация</b></summary>
+<br>
 
 [Объекты методы](./JS_4_Object/Объекты_методы.md)
 
