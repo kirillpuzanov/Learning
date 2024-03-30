@@ -111,33 +111,49 @@
 [Заимствование метода](./JS_4_Object/Заимствование_метода.md)
 </details>
 
-[//]: # ([JS Class]&#40;https://www.notion.so/JS-Class-062fe2cae4e4452fb1ac383fdc9c81f1?pvs=21&#41;)
-
 <details>
 <summary><b>JS Class</b></summary>
 <br>
 
-[class - базовый синтаксис](class_базовый_синтаксис.md)
+[class - базовый синтаксис](./JS_5_Class/class_базовый_синтаксис.md)
 
-[Наследование](Наследование.md)
+[Наследование](./JS_5_Class/Наследование.md)
 
-[Статические свойства и методы](Статические_свойства_методы.md)
+[Статические свойства и методы](./JS_5_Class/Статические_свойства_методы.md)
 
-[Приватные и защищенные поля](Приватные_защищенные_поля.md)
+[Приватные и защищенные поля](./JS_5_Class/Приватные_защищенные_поля.md)
 
-[instanceof Проверка принадлежности класса](instanceof.md)
+[instanceof Проверка принадлежности класса](./JS_5_Class/instanceof.md)
 
-[Принципы ООП](Принципы_ООП.md)
+[Принципы ООП](./JS_5_Class/Принципы_ООП.md)
 
-[Паттерн Builder и chaining](Паттерн_Builder_chaining.md)
+[Паттерн Builder и chaining](./JS_5_Class/Паттерн_Builder_chaining.md)
 
-[SOLID](SOLID.md)
+[SOLID](./JS_5_Class/SOLID.md)
 
 </details>
 
+<details>
+<summary><b>JS Async</b></summary>
+<br>
 
-[Async](https://www.notion.so/Async-35bf9f682ecf4a2397bd69b78c9d5137?pvs=21)
+[Promise Base](./JS_6_Async/Promise_Base.md)
 
+[Promise Статичные методы](./JS_6_Async/Promise_Статичные_методы.md)
+
+[Chaining Цепочка Promise](./JS_6_Async/Chaining_Promise.md)
+
+[setTimeout / setInterval](./JS_6_Async/setTimeout_setInterval.md)
+
+[Async Await](./JS_6_Async/Async_Await.md)
+
+[Генераторы](./JS_6_Async/Генераторы.md)
+
+[Асинхронные генераторы и итераторы](./JS_6_Async/Асинхронные_генераторы_итераторы.md)
+
+[Event Loop](./JS_6_Async/Event_Loop.md)
+
+</details>
 
 #
 ### Полезное
