@@ -37,3 +37,27 @@ let timerId = setInterval(() => alert('tick'), 2000);
 // }
 
 // time(10000)   
+
+
+class Animal {
+	static bark() {
+		console.log('-- bark  -->', );
+	}
+	hi() {
+		console.log('--  hi -->' );
+	}
+	name = 'asdasd'
+}
+
+class Dog extends Animal {}
+
+const dog = new Dog();
+
+// console.log('--   -->', dog.__proto__.__proto__ === Animal.prototype);
+
+const arr = [1,23,4,5]
+
+console.log('--   -->',Math.max.apply(null, arr));
+
+const sim = Symbol() // [object Symbol]
+console.log(Object.prototype.toString.call(sim))

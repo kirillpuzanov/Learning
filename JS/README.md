@@ -111,7 +111,30 @@
 [Заимствование метода](./JS_4_Object/Заимствование_метода.md)
 </details>
 
-[JS Class](https://www.notion.so/JS-Class-062fe2cae4e4452fb1ac383fdc9c81f1?pvs=21)
+[//]: # ([JS Class]&#40;https://www.notion.so/JS-Class-062fe2cae4e4452fb1ac383fdc9c81f1?pvs=21&#41;)
+
+<details>
+<summary><b>JS Class</b></summary>
+<br>
+
+[class - базовый синтаксис](class_базовый_синтаксис.md)
+
+[Наследование](Наследование.md)
+
+[Статические свойства и методы](Статические_свойства_методы.md)
+
+[Приватные и защищенные поля](Приватные_защищенные_поля.md)
+
+[instanceof Проверка принадлежности класса](instanceof.md)
+
+[Принципы ООП](Принципы_ООП.md)
+
+[Паттерн Builder и chaining](Паттерн_Builder_chaining.md)
+
+[SOLID](SOLID.md)
+
+</details>
+
 
 [Async](https://www.notion.so/Async-35bf9f682ecf4a2397bd69b78c9d5137?pvs=21)
 
