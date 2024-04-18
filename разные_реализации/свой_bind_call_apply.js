@@ -8,7 +8,7 @@ function getUserInfo(phone, email){
 	console.log(`User name: ${this.name}, phone: ${phone}, email: ${email}` );
 }
 
-// ------>>>  реализация без использования встроенных методов ES6
+// ------>>>  bind без использования встроенных методов ES6
 function myBind(fn, ctx, ...rest) {
 
 	return function(...args) {
@@ -23,7 +23,7 @@ function myBind(fn, ctx, ...rest) {
 	}
 }
 
-// ------>>>  реализация без использования встроенных методов ES5
+// ------>>>   bind + встроенные методы ES6
 function myBind(fn, ctx, ...rest) {
 	return function(...args) {
 		// return fn.apply(ctx, rest.concat(args))
@@ -36,7 +36,7 @@ myBind(getUserInfo, user)('8911-123-12-12', 'email@zxfa.com')
 myBind(getUserInfo, user, '8911-123-12-12')('email@zxfa.com')
 
 
-// // ------>>>  реализация call
+// // ------>>>  call
 
 function myCall(fn, ctx, ...rest) {
 		const uniqueKey = Symbol('uniqueKey');
@@ -54,7 +54,7 @@ function myCall(fn, ctx, ...rest) {
 
 
 
-// ------>>>  реализация call
+// ------>>>  apply
 
 function myApply(fn, ctx, rest) {
 	const uniqueKey = Symbol('uniqueKey');
