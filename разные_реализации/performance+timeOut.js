@@ -1,10 +1,6 @@
-
-// задача написать функцию customTimeOut, которая 
+// задача написать функцию customTimeOut, которая
 // через delay, "repeat" количество раз  вызовет переданную в нее функцию
 // (в данном случае - performance.now() - время со старта функции)
-
-
-
 
 // Рекурсивный "вложенный setTimeout"
 
@@ -15,17 +11,17 @@
 // 4108.0999999996275
 
 function customTimeOut(fn, delay, repeat) {
-	let count = 0;
+	let count = 0
 	let timer = setTimeout(function tick() {
-		fn();
-		count++;
-		if(count < repeat) {
+		fn()
+		count++
+		if (count < repeat) {
 			timer = setTimeout(tick, delay)
 		} else {
 			clearTimeout(timer)
 		}
 	}, delay)
-} 
+}
 
 // setInterval
 
@@ -36,12 +32,22 @@ function customTimeOut(fn, delay, repeat) {
 // 4109
 
 function customTimeOut2(fn, delay, repeat) {
-	let count = 0;
+	let count = 0
 	const id = setInterval(() => {
-		count++;
-		fn();
-		if(count >= repeat) {
+		count++
+		fn()
+		if (count >= repeat) {
 			clearInterval(id)
 		}
 	}, delay)
-} 
+}
+
+// запускать в цикле setTimeout но с увеличенной задержкой
+
+function customTimeOut3(fn, delay, repeat) {
+	for (let i = 0; i < repeat; i++) {
+		setTimeout(fn, delay + i * delay)
+	}
+}
+
+// customTimeOut3(() => console.log(performance.now()) , 1000, 4);
