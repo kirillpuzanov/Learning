@@ -51,3 +51,18 @@ function customTimeOut3(fn, delay, repeat) {
 }
 
 // customTimeOut3(() => console.log(performance.now()) , 1000, 4);
+
+// через вспомогательную функцию генератор
+async function* gen(f, time, n) {
+	for (let i = 0; i < n; i++) {
+		const res = await new Promise(res => setTimeout(() => res(f()), time))
+		yield res
+	}
+}
+
+async function customTimeOut_generator(fn, delay, count) {
+	for await (_ of gen(fn, delay, count)) {
+	}
+}
+
+// customTimeOut_generator(() => console.log(performance.now()), 1000, 4)
