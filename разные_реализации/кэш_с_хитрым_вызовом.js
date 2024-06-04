@@ -9,7 +9,6 @@ function memo(f) {
 	fun.cache = cache;
 	function fun (...args) {
 		const key = args.join(',');
-		// console.log('--  inside caller -->',caller);
 
 		if(key in cache) {
 			console.log('--  from cache -->',cache );
