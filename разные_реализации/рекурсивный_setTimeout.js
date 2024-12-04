@@ -20,3 +20,16 @@ const time = (delay) => {
 }
 
 time(10000) 
+
+function customTimeOut(fn, delay, repeat) {
+	let count = 0
+	let timer = setTimeout(function tick() {
+		fn()
+		count++
+		if (count < repeat) {
+			timer = setTimeout(tick, delay)
+		} else {
+			clearTimeout(timer)
+		}
+	}, delay)
+}
